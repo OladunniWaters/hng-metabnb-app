@@ -63,7 +63,7 @@ export default function Modal() {
                  </div>
                  
                  <div className="flex flex-row items-start justify-between p-5">
-                 <BsChevronRight/>
+                 <BsChevronRight className=""/>
                  </div>
                   </div>
          </div> 
