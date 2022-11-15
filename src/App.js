@@ -1,6 +1,6 @@
 import Airbnb from "./components/Airbnb";
 import PlacesToStay from "./components/PlacesToStay";
-import { Routes, Route } from "react-router-dom";
+import {BrowserRouter as HashRouter, Routes, Route} from "react-router-dom"
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Airbnb />} />
-        <Route path="/placeToStay" element={<PlacesToStay />} />
+        <Route path="/placesToStay" element={<PlacesToStay />} />
       </Routes>
     </div>
   );

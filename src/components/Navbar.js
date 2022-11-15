@@ -44,7 +44,8 @@ export default function Navbar({ fixed }) {
               <li className="lg:mr-10">
                 <a
                   className="px-3 py-2 flex items-center text-base leading-snug font-Red hover:opacity-75"
-                  href="/placeToStay"
+                  href="/placesToStay"
+                  rel="noreferrer" 
                 >
                   Place to stay
                 </a>
