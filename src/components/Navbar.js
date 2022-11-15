@@ -44,7 +44,7 @@ export default function Navbar({ fixed }) {
               <li className="lg:mr-10">
                 <a
                   className="px-3 py-2 flex items-center text-base leading-snug font-Red hover:opacity-75"
-                  href="/placesToStay"
+                  href="/placestostay"
                   rel="noreferrer" 
                 >
                   Place to stay
@@ -61,7 +61,7 @@ export default function Navbar({ fixed }) {
               <li className="lg:mr-48">
                 <a
                   className="px-3 py-2 flex items-center text-base leading-snug hover:opacity-75 font-Red"
-                  href="#pablo"
+                  href="#community"
                 >
                   Community
                 </a>
