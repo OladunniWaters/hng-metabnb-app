@@ -65,7 +65,7 @@ export default function PlaceToStay() {
                 
    
              return (
-                  <div id={id} className="flex flex-col items-center justify-center"  style={{borderRadius:"15px", border:"1px solid #D7D7D7", width:"310px", height:"400px" }}>
+                  <div id={id} className="flex flex-col items-center justify-center mx-auto"  style={{borderRadius:"15px", border:"1px solid #D7D7D7", width:"310px", height:"400px" }}>
                     <div className="relative">
                         <img className=""  src={image}  alt={name}  style={{borderRadius:"15px", border:"1px solid #D7D7D7", height:"265px", width:"260px" }}/>
                         

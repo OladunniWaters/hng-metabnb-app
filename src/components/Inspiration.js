@@ -12,7 +12,7 @@ export default function Inspiration() {
             </h1>
        </div>
     
-        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 m-3 gap-8 p-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-3 mt-3 px-6 py-5 mb-3">
              <InspirationCard 
                cardImage="./assets/nft-5.png"
                cardName="Desert King"

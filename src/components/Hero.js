@@ -24,14 +24,19 @@ export default function Hero() {
           </p>
           
           <div>
-          <input type="text"
-          placeholder="Search for location"
-          className="input-box px-5 py-3 w-80 w-80 w-60 h-14 font-Red"/>
-          
-          <input type="submit" value="search"
-          className="search-btn text-white px-5 py-3 w-56 mt-3 h-14 font-Red"/>
+                <input 
+                      className="input-box px-5 py-3 w-80 w-80 w-60 h-14 font-Red"
+                      type="text"
+                      placeholder="Search for location"
+                />
+                
+                <input 
+                      type="submit" 
+                      value="search"
+                      className="search-btn text-white px-5 py-3 w-56 mt-3 h-14 font-Red"
+                />
           </div>
-          </div>
+      </div>
           
           
           {/*HERO RIGHT*/}

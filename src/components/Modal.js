@@ -47,7 +47,7 @@ export default function Modal() {
                   
                  <div className="flex items-start justify-around p-5 modal-box mb-3"> 
                  <div className="flex flex-row items-start justify-between">
-                 <img className="w-10" src="../assets/image 66.png"alt="metamask"/>
+                 <img className="w-10" src={require("../assets/image 66.png")} alt="metamask"/>
                  <p className="my-2 text-black text-lg leading-6 font-semibold ml-5" style={{fontFamily:"sora"}}>Metamask</p>
                  </div>
                  
@@ -58,7 +58,7 @@ export default function Modal() {
               
                  <div className="flex items-start justify-around p-5 modal-box"> 
                  <div className="flex flex-row items-start justify-between">
-                 <img className="w-8" src="../assets/image 69.png" alt="WalletConnect"/>
+                 <img className="w-8" src={require("../assets/image 69.png")} alt="WalletConnect"/>
                  <p className="my-2 text-black text-lg leading-6 font-semibold ml-5">WalletConnect</p>
                  </div>
                  

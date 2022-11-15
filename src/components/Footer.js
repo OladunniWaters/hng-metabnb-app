@@ -3,7 +3,7 @@ export default function  Footer() {
 
   
   return(
-    <footer className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 bg-black text-white gap-4 px-7 py-5">
+    <footer style={{background:"#1D1D1E"}} className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 text-white gap-4 px-7 py-5 pt-20 pb-20">
     
     <div 
     className="flex flex-col items-start justify-center mx-auto">
