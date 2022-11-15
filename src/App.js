@@ -1,6 +1,6 @@
 import Airbnb from "./components/Airbnb";
 import PlacesToStay from "./components/PlacesToStay";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import './App.css';
 
 function App() {

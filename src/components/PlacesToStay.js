@@ -63,7 +63,7 @@ export default function PlaceToStay() {
                 {data.map((places) =>{
                 const {id, image, name, distance, price, available} = places
                 
-         {/*Cards*/}       
+   
              return (
                   <div id={id} className="flex flex-col items-center justify-center"  style={{borderRadius:"15px", border:"1px solid #D7D7D7", width:"310px", height:"400px" }}>
                     <div className="relative">
