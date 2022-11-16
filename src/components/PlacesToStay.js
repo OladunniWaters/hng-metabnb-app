@@ -54,8 +54,8 @@ export default function PlaceToStay() {
                   Farm
               </button>
               
-              <button className="general  lg:text-xl text-base btn-location w-28 lg:w-32">Location 
-                 <FaSlidersH className="inline-block ml-3 lg:ml-2"/>
+              <button className="general  lg:text-xl text-base btn-location w-28 lg:w-32">Location
+                 <FaSlidersH className="inline-block" />
               </button>
               </header>
               
